@@ -1,0 +1,103 @@
+#gameborder {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  padding: 2rem;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: center;
+
+}
+
+.ltrs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-right: .5rem;
+  font-size: 3rem;
+  font-family: "Poppins";
+  color: rgb(255, 255, 255);
+  background-color: rgb(14, 101, 177);
+  border-radius: 50%;
+}
+
+#dropzone {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(145, 193, 237);
+}
+
+#Sdrop,
+#Udrop,
+#Ndrop,
+#dropN,
+#Ydrop {
+  width: 100px;
+  height: 100px;
+  margin: 1rem .5rem 1rem 0;
+  border-radius: 50%;
+}
+
+#Sdrop {
+  background-color: rgb(236, 236, 162);
+}
+
+#Udrop {
+  background-color: rgb(220, 220, 126);
+}
+
+#Ndrop {
+  background-color: rgb(211, 211, 112);
+}
+
+#dropN {
+  background-color: rgb(217, 217, 80);
+}
+
+#Ydrop {
+  background-color: rgb(199, 199, 51);
+}
+
+.shuffle {
+  width: 200px;
+  padding: 1rem;
+  margin: 4rem auto;
+  font-family: 'poppins';
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: #7b90a7;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.shuffle:hover {
+  background-color: #97bde5;
+  color: rgb(20, 20, 20);
+}
+
+.sun{
+  text-align: center;
+}
+img {
+  width: 150px;
+  height: 150px;
+}

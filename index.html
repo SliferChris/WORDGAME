@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WORD GAME</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,800;1,100;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <h2>UNRAVEL THE WORD</h2>
+  <div class="sun"><img src="images/sunface2.webp" alt=""></div>
+  <div id="gameborder">
+    <div id="time-score">
+      <h2>TIME: <span id="timer">0</span></h2>
+      <h2>SCORE: <span id="score">0</span></h2>
+    </div>
+    <div id="container">
+      <div class="ltrs" data-lettervalue="" id=""></div>
+      <div class="ltrs" data-lettervalue="" id=""></div>
+      <div class="ltrs" data-lettervalue="" id=""></div>
+      <div class="ltrs" data-lettervalue="" id=""></div>
+      <div class="ltrs" data-lettervalue="" id=""></div>
+    </div>
+
+    <!-- Add these elements inside the body tag -->
+    <div id="message"></div>
+    <button id="startButton">Start Game</button>
+
+    <div id="dropzone">
+      <div id="Sdrop"></div>
+      <div id="Udrop"></div>
+      <div id="Ndrop"></div>
+      <div id="dropN"></div>
+      <div id="Ydrop"></div>
+    </div>
+
+    <div class="shuffle">SHUFFLE WORD</div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
